@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            nested loop</title>
+    </head>
+    <body>
+        <!-- Table -->
+        <table border="2">    
+          <thead style="color: aquamarine;">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr> 
+        </thead> 
+        <tbody style="color: rgb(255, 189, 127);">
+           <tr>  <!-- for row declaration-->
+              <td>data1</td>
+              <td>data2</td>  <!--td for column declaration-->
+              <td>data3</td>
+           </tr> 
+           <tr>
+               <td>data4</td>
+               <td>
+                   <table border="3">
+                        <tr> 
+                            <td> col 1</td>
+                            <td>col 2</td>
+                        </tr>
+                        <tr>
+                            <td>col 4</td>
+                            <td>col 3</td>
+                        </tr>
+                   </table>
+               </td>
+               <td>data6</td>
+           </tr>
+           <tr>
+             <td>data7</td>
+             <td>data8</td>
+             <td>data9</td>
+           </tr>
+        <thead style="color: rgb(127, 163, 255);">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr> 
+        </thead> 
+        </tbody>
+         </tfoot>
+        </table>
+    </body>
+</html>
